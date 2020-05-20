@@ -24,9 +24,6 @@ run-without-draft: ## Run server without draft posts
 build: clean ## Build static html
 	@hugo
 
-#build-github: clean ## Build static html
-#	@hugo --config config.toml,config-github.toml
-
 deploy: build ## Deploy on Github Pages
 	@git add .
 	@git commit -m 'modified'
