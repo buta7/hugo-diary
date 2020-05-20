@@ -24,7 +24,9 @@ build: clean ## Build static html
 	@hugo
 
 deploy: clean ## Deploy on Github Pages
-	@sh deploy.sh
+	@git add .
+	@git commit -m 'modified'
+	@git push origin master
 
 clean: ## Clean old files
 	@hugo --cleanDestinationDir
