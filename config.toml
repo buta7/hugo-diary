@@ -1,10 +1,11 @@
-baseURL = "https://higebobo.github.io/hugo-diary/"
+baseURL = "https://higebobo.github.io/hugo-diary"
 languageCode = "ja"
 title = "Hugo Diary"
 theme = "hugo-theme-diary"
 #publishDir = "docs"
 copyright = "This is a customized copyright."
 # googleAnalytics = "UA-123-45"
+uglyurls = false
 
 [markup]
   [markup.highlight]
