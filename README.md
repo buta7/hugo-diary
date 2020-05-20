@@ -41,8 +41,6 @@ baseURL = "https://higebobo.github.io/hugo-diary/"
 languageCode = "ja"
 title = "Hugo Diary"
 theme = "hugo-theme-diary"
-#publishDir = "docs"
-
 ```
 
 > github pagesやnetlifyで使う場合はbaseURLのプロトコルはhttpsにすること
@@ -90,11 +88,9 @@ content/posts/hello.md created
 vi content/posts/hello.md
 ```
 
-### ポートフォリオ
-
-```shell
-vi data/artworks.toml
-```
+> featured_imageは相対パスで書くこと
+>
+>     featured_image: "images/Pope-Edouard-de-Beaumont-1844.jpg"
 
 ## Link
 
