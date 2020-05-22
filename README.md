@@ -13,11 +13,11 @@ hugo new site hugo-diary
 ```shell
 cd hugo-diary
 git init
-echo '*.bak' >> .gitignore
 echo '*~' >> .gitignore
+echo '*.bak' >> .gitignore
 echo '*.orig' >> .gitignore
-echo 'public' >> .gitignore
 echo '.env' >> .gitignore
+echo 'public' >> .gitignore
 ```
 
 テーマ設定

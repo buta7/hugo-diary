@@ -3,4 +3,4 @@
 *.orig
 .env
 public
-resources
+#resources
