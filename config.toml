@@ -1,11 +1,19 @@
 baseURL = "https://higebobo.github.io/hugo-diary"
 languageCode = "ja"
+defaultContentLanguage = "ja"
 title = "Hugo Diary"
 theme = "hugo-theme-diary"
 copyright = "This is a customized copyright."
 # googleAnalytics = "UA-123-45"
 #publishDir = "docs"
 #uglyurls = false
+
+[languages]
+  [languages.ja]
+  title = "尾張日記"
+  dateFormat = "2006年01月02日"
+    [langueages.ja.params]
+    subtitle = "Themed by Diary. dayodayo"
 
 [markup]
   [markup.highlight]
@@ -21,30 +29,35 @@ copyright = "This is a customized copyright."
 
 [params]
 subtitle = "Themed by Diary."
-enableGitalk = true
+enableGitalk = false
+#disableToC = true
 
-[params.gitalk]
-  owner = "user"
-  repo = "repo name"
-  client_id = "your client id"
-  client_secret = "your client secret"
+#[params.gitalk]
+#  owner = "user"
+#  repo = "repo name"
+#  client_id = "your client id"
+#  client_secret = "your client secret"
 [taxonomies]
    tag = "tags"
-   category = "categories"
+   #category = "categories"
 
-[[menu.main]]
-url = "/categories"
-name = "Categories"
-weight = 2
+#[[menu.main]]
+#url = "/categories"
+#name = "Categories"
+#weight = 2
 [[menu.main]]
 url = "/tags"
 name = "Tags"
-weight = 3
+weight = 2
 [[menu.main]]
 url = "/posts"
 name = "Archive"
-weight = 1
+weight = 3
 [[menu.main]]
 url = "/index.xml"
 name = "RSS Feed"
 weight = 4
+[[menu.main]]
+url = "/about/"
+name = "About"
+weight = 1
