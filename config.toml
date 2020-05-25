@@ -30,6 +30,10 @@ copyright = "This is a customized copyright."
 subtitle = "Themed by Diary."
 enableGitalk = false
 #disableToC = true
+disableDarkMode=true
+
+  [[params.customCSS]]
+     href = "css/style.css"
 
 #[params.gitalk]
 #  owner = "user"

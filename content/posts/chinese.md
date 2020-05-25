@@ -4,7 +4,7 @@ description: 本文章采用狗屁不通文章生成器生成,无任何实际含
 featured_image: "images/chinese.jpg"
 tags: [Chinese,text]
 title: "中文文本测试"
-categories: Chinese
+#categories: Chinese
 ---
 
 
