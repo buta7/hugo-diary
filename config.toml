@@ -5,7 +5,6 @@ title = "Hugo Diary"
 theme = "hugo-theme-diary"
 copyright = "This is a customized copyright."
 # googleAnalytics = "UA-123-45"
-#publishDir = "docs"
 #uglyurls = false
 
 [languages]
@@ -13,7 +12,7 @@ copyright = "This is a customized copyright."
   title = "尾張日記"
   dateFormat = "2006年01月02日"
     [langueages.ja.params]
-    subtitle = "Themed by Diary. dayodayo"
+    subtitle = "徒然なるままに"
 
 [markup]
   [markup.highlight]
