@@ -1,25 +1,24 @@
 - id: last_mod_on
-  translation: 最終更新 {{ .Format "2006年01月02日" }}
+  translation: 最終更新 {{ .Format "2006年1月2日" }}
 - id: format_date
-  translation: '{{ .Format "2006年01月02日" }}'
+  translation: '{{ .Format "2006年1月2日" }}'
 - id: format_date_tosec
-  translation: '{{ .Format "2006-01-02 15:04" }}'
+  translation: '{{ .Format "2006年1月2日 15時4分" }}'
 - id: next_link
   translation: '次'
 - id: prev_link
   translation: '前'
 - id: no_newer_posts
-  translation: 新しい投稿はありません。
+  translation: これより新しい投稿はありません
 - id: no_older_posts
-  translation: 这是最旧的文章了。
+  translation: これより古い投稿はありません
 - id: comments_disabled
-  translation: 此篇文章的评论功能已经停用。
+  translation: コメントは投稿できません
 - id: comments_activate_js
-  translation: 请开启 JavaScript 以便使用评论服务。
-- id: hugo_theme
-  translation: Hugo Theme
-- id: ported_from
-  translation: 移植自
+  translation: JavaScriptを有効にしてください
+#- id: hugo_theme
+#  translation: Hugo - id: ported_from
+#  translation: オリジナル
 - id: by
   translation: by
 - id: draft

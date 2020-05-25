@@ -1,18 +1,11 @@
 baseURL = "https://higebobo.github.io/hugo-diary"
-languageCode = "ja"
+languageCode = "en-us"
 defaultContentLanguage = "ja"
 title = "Hugo Diary"
 theme = "hugo-theme-diary"
 copyright = "This is a customized copyright."
 # googleAnalytics = "UA-123-45"
 #uglyurls = false
-
-[languages]
-  [languages.ja]
-  title = "尾張日記"
-  dateFormat = "2006年01月02日"
-    [langueages.ja.params]
-    subtitle = "徒然なるままに"
 
 [markup]
   [markup.highlight]
@@ -32,17 +25,18 @@ enableGitalk = false
 #disableToC = true
 disableDarkMode=true
 
-  [[params.customCSS]]
-     href = "css/style.css"
+#[[params.customCSS]]
+#href = "css/style.css"
 
 #[params.gitalk]
 #  owner = "user"
 #  repo = "repo name"
 #  client_id = "your client id"
 #  client_secret = "your client secret"
+
 [taxonomies]
-   tag = "tags"
-   #category = "categories"
+tag = "tags"
+#category = "categories"
 
 #[[menu.main]]
 #url = "/categories"
@@ -63,4 +57,27 @@ weight = 4
 [[menu.main]]
 url = "/about/"
 name = "About"
+weight = 1
+
+#[languages]
+[languages.ja]
+title = "尾張日記"
+dateFormat = "2006年1月2日"
+copyright = "ひげぼうぼう"
+subtitle = "徒然なるままに"
+[[languages.ja.menu.main]]
+url = "/tags"
+name = "タグ"
+weight = 2
+[[languages.ja.menu.main]]
+url = "/posts"
+name = "アーカイブ"
+weight = 3
+[[languages.ja.menu.main]]
+url = "/index.xml"
+name = "RSS Feed"
+weight = 4
+[[languages.ja.menu.main]]
+url = "/about/"
+name = "このサイトについて"
 weight = 1
