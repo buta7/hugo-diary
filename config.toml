@@ -23,7 +23,8 @@ copyright = "This is a customized copyright."
 subtitle = "Themed by Diary."
 enableGitalk = false
 #disableToC = true
-disableDarkMode=true
+disableDarkMode = true
+baseURL = "https://higebobo.github.io/hugo-diary"
 
 #[[params.customCSS]]
 #href = "css/style.css"
