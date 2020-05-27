@@ -87,6 +87,10 @@ content/posts/hello.md created
 vi content/posts/hello.md
 ```
 
+> featured_imageは相対パスで書くこと
+>
+>     featured_image: "images/Pope-Edouard-de-Beaumont-1844.jpg"
+
 ## Link
 
 * [Hugo Theme Diary \| Hugo Themes](https://themes.gohugo.io/hugo-theme-diary/)
